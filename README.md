@@ -1,3 +1,3 @@
 # padelsite
 
-Avalable testing cards to use are shown here: https://stripe.com/docs/testing
+Avalable testing creditcards to use are shown here: https://stripe.com/docs/testing
