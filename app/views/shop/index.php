@@ -35,6 +35,8 @@
                             <h4 class="card-title"><?php echo $shopitem->name; ?></h4>
 
                             <textarea readonly="true" hidden="true"
+                                name="name"> <?php echo $shopitem->user_id; ?></textarea>
+                            <textarea readonly="true" hidden="true"
                                 name="name"> <?php echo $shopitem->name; ?></textarea>
                             <textarea readonly="true"
                                 name="description"> <?php echo $shopitem->description; ?></textarea>
@@ -48,17 +50,6 @@
             </form>
 
             <?php endforeach; ?>
-
-            <!-- <div class="card card-body mb-3">
-        <h4 class="card-title"><?php echo $shopitem->name; ?></h4>
-
-        <textarea readonly="true" hidden="true" name="name"> <?php echo $shopitem->name; ?></textarea>
-        <textarea readonly="true" name="description"> <?php echo $shopitem->description; ?></textarea>
-        <textarea readonly="true" name="price"> <?php echo $shopitem->price; ?></textarea>
-
-        <input type="submit" value="Lägg till" class="btn btn-success">
-
-        <a href="<?php echo URLROOT; ?>/posts/show/<?php echo $shopitem->id; ?>" class="btn btn-dark">More</a> -->
         </div>
     </div>
 </div>
